@@ -35,7 +35,7 @@ if (liriCommand === "movie-this") {
 
 //If the liriCommand is my-tweets, show last 20 tweets and when they were created in terminal window.
 if (liriCommand === "my-tweets") {
-	getLatestTweets();
+	console.log("Twitter API not available");
 }
 
 //If the liriCommand is spotify-this-song, show song info for the specified song.
